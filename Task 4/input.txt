@@ -1,0 +1,12 @@
+program ife;
+var
+    i: Integer;
+
+begin
+    // Loop from 10 down to 1
+    for i := 1 to 10 do
+    begin
+        write(i);
+    end;
+write(i);
+end.

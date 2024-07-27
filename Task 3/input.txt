@@ -1,0 +1,19 @@
+program forif;
+var
+  i, j: Integer;
+  a,x:real;
+  B:boolean;
+  a:integer;
+  c:char;
+
+begin
+    read(i);
+    a:=i;
+    j:=10/0;
+  x:=a;
+    B:=12.5+'c';
+    if B then
+    begin
+      c:=12.5;
+    end;
+end.
