@@ -1,4 +1,13 @@
-Group Members: Vidhi Sajnani, Aastha, Priyanshu Prashant Verma, Shubham Agrawal, Vishva Desai
+Task 1:
+Compilation
+lex VAPS5421.l
+gcc lex.yy.c -ll
+
+Task 2
+Compilation
+yacc -d VAPS5421.y
+lex VAPS5421.l
+cc y.tab.c lex.yy.c -ll
 
 AST:
 Compilation
